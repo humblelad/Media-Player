@@ -3,7 +3,7 @@ package application;
 
 import java.io.File;
 import java.net.MalformedURLException;
-
+import java.lang.*;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -48,7 +48,7 @@ public class Main extends Application {
 			 }}
 		});
 		
-	Player player=new Player("file:///G:/javaex2.mp4");
+	 player=new Player("file:///G:/video/myhope.mp4");
 	player.setTop(menu);
 	Scene scene=new Scene(player, 720, 535, Color.BLACK);
 	primaryStage.setScene(scene);
