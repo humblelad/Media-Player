@@ -23,7 +23,7 @@ public class Player extends BorderPane{
 		
 		bar=new MediaBar(player);
 		setBottom(bar);
-		setStyle("-fx-background-color:#808000");
+		setStyle("-fx-background-color:#808050");
 		
 		player.play();
 		
